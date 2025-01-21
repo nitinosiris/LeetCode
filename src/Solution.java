@@ -1,4 +1,5 @@
-﻿public class Solution {
+﻿class Solution {
+    public int lastStoneWeight(int[] stones) {
 
-
+    }
 }
