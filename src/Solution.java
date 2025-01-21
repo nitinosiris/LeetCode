@@ -1,5 +1,5 @@
-﻿class Solution {
-    public int lastStoneWeight(int[] stones) {
+﻿import java.util.PriorityQueue;
 
-    }
+class Solution {
+
 }
