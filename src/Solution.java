@@ -1,7 +1,6 @@
-﻿import java.util.*;
+﻿import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
-    public boolean isNStraightHand(int[] hand, int groupSize) {
-
-    }
+    
 }
