@@ -1,5 +1,5 @@
-﻿class Solution {
-    public int[] dailyTemperatures(int[] temperatures) {
+﻿import java.util.Arrays;
 
-    }
+class Solution {
+
 }
