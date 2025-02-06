@@ -1,3 +1,6 @@
-﻿public class Solution {
+﻿import java.util.Arrays;
+
+class Solution {
+
 
 }
