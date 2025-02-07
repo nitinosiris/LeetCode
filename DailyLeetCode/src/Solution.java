@@ -1,5 +1,2 @@
-﻿class Solution {
-    public int swimInWater(int[][] grid) {
+﻿import java.util.*;
 
-    }
-}
