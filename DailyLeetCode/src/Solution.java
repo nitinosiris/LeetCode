@@ -1,14 +1,9 @@
-﻿class WordDictionary {
+﻿import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Map;
+import java.util.Stack;
+import java.util.AbstractMap;
 
-    public WordDictionary() {
+class Solution {
 
-    }
-
-    public void addWord(String word) {
-
-    }
-
-    public boolean search(String word) {
-
-    }
 }
