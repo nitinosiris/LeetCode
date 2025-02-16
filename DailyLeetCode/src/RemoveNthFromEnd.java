@@ -3,21 +3,24 @@
         public ListNode removeNthFromEnd(ListNode head, int n) {
             ListNode dummy = new ListNode(-1);
             dummy.next = head;
-            remove(head, n, dummy);
+            ListNode first = dummy, second = dummy;
+
+            // Move first pointer `n+1` steps ahead
+            for (int i = 0; i <= n; i++) {
+                first = first.next;
+            }
+
+            // Move both pointers until first reaches the end
+            while (first != null) {
+                first = first.next;
+                second = second.next;
+            }
+
+            // Remove the nth node
+            second.next = second.next.next;
+
             return dummy.next;
         }
-
-        private int remove(ListNode head, int n, ListNode prev)
-        {
-            if(head == null)
-                return 0;
-
-            int res = 1 + remove(head.next, n, head);
-            if(res == n)
-            {
-                prev.next = head.next;
-            }
-            return res;
-        }
     }
+
 }
