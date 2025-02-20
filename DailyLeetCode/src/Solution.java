@@ -1,2 +1,5 @@
-﻿class Solution {
+﻿import java.util.*;
+
+public class Solution {
+
 }
