@@ -1,20 +1,7 @@
-﻿class Solution {
-    public int hammingWeight(int n) {
-        int res = 0;
+﻿import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-        while(n > 0)
-        {
-            res += 1;
-            n = n & (n - 1);
-        }
-        return res;
-    }
+class Solution {
 
-    public int[] countBits(int n) {
-        int[] res = new int[n + 1];
-        for(int i = 0; i <= n; i++)
-            res[i] = hammingWeight(i);
-
-        return res;
-    }
 }
