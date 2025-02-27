@@ -1,10 +1,10 @@
 ﻿import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution {
+public class RottenOranges {
     private int rows;
     private int cols;
-    public int orangesRotting(int[][] grid) {
+    public int maxAreaOfIsland(int[][] grid) {
         rows = grid.length;
         cols = grid[0].length;
         int count = 0;
