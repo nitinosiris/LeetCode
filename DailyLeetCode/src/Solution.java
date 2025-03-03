@@ -1,3 +1,3 @@
-﻿class Solution {
+﻿class NumMatrix {
 
 }
