@@ -1,3 +1,5 @@
-﻿class NumMatrix {
+﻿import java.util.HashMap;
+
+class Solution {
 
 }
