@@ -1,6 +1,5 @@
 ﻿import java.util.HashMap;
-import java.util.HashSet;
 
-class Solution {
+public class Solution {
 
 }
