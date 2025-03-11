@@ -1,5 +1,6 @@
-﻿import java.util.*;
+﻿import java.util.Arrays;
+import java.util.HashMap;
 
-class Solution {
+public class Solution {
 
 }
