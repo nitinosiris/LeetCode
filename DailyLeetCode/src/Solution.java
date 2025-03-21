@@ -1,5 +1,7 @@
 ﻿import java.util.*;
 
-public class Solution {
-    
+class Solution {
+
+
 }
+    
